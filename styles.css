@@ -1,0 +1,85 @@
+main {
+  border: none;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 10px 7px 20px #888;
+  font-family: 'Poppins', Verdana, sans-serif;
+  margin: 50px;
+  padding: 50px;
+}
+
+img {
+  border: solid #919191;
+  border-radius: 100px;
+  box-shadow: 3px 7px 7px #888;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #616161;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  margin-bottom: -30px;
+  padding: 10px 5px 10px 5px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  padding: 5px;
+  margin-bottom: -20px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+#contactInfo {
+  padding: 0;
+  text-align: center;
+}
+
+#contactInfo li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#skillsList {
+  padding: 10px;
+}
+
+#institution1 {
+  margin-bottom: -25px;
+}
+
+#degree {
+  margin-bottom: -1px;
+}
+
+.jobTitle {
+  font-style: italic;
+  margin-bottom: -25px;
+  margin-left: 4px;
+}
+
+.dateRange {
+  font-style: italic;
+  margin-bottom: -10px;
+  margin-left: 4px;
+}
