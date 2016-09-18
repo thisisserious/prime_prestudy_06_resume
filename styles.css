@@ -1,11 +1,5 @@
 main {
-  border: none;
-  border-radius: 10px;
-  background-color: lightgray;
-  box-shadow: 10px 7px 20px #888;
-  font-family: 'Poppins', Verdana, sans-serif;
-  margin: 50px;
-  padding: 50px;
+  display: none;
 }
 
 img {
@@ -13,8 +7,7 @@ img {
   border-radius: 100px;
   box-shadow: 3px 7px 7px #888;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
   max-width: 100%;
   height: auto;
 }
@@ -40,13 +33,22 @@ h2 {
   padding: 5px;
   margin-bottom: -20px;
   border-top-width: 2px;
-  border-top-style: solid;
-  border-top-color: black;
+
 }
 
 footer {
   text-align: center;
-  margin-bottom: -30px;
+  margin: 30px 0 -30px 0;
+}
+
+main {
+  border: none;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 10px 7px 20px #888;
+  font-family: 'Poppins', Verdana, sans-serif;
+  margin: 50px;
+  padding: 50px;
 }
 
 #contactInfo {
@@ -62,6 +64,8 @@ footer {
 
 #skillsList {
   padding: 10px;
+  display: none;
+  margin-top: 20px;
 }
 
 #institution1 {
@@ -72,14 +76,48 @@ footer {
   margin-bottom: -1px;
 }
 
+.button {
+  display: block;
+  border: none #919191;
+  border-radius: 10px;
+  box-shadow: 3px 7px 7px #888;
+  margin-left: auto;
+  margin-right: auto;
+  font: 30px 'Poppins', Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  opacity: 0.65;
+}
+
+.skillsButton, .expButton, .eduButton {
+  border: none #919191;
+  border-radius: 10px;
+  box-shadow: 3px 7px 7px #888;
+  display: block;
+  margin: 0 auto 0 auto;
+  font: 25px 'Poppins', Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  opacity: 0.65;
+}
+
+.experience {
+  display: none;
+  margin-top: 30px;
+}
+
 .jobTitle {
   font-style: italic;
-  margin-bottom: -25px;
-  margin-left: 4px;
+  margin: 0 0 -25px 4px;
 }
 
 .dateRange {
   font-style: italic;
   margin-bottom: -10px;
   margin-left: 4px;
+}
+
+.education {
+  display: none;
+  margin-top: 30px;
 }
