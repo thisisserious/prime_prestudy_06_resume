@@ -1,24 +1,28 @@
-$('.button, .skillsButton, .expButton, .eduButton').mouseenter(function() {
-  $(this).fadeTo('fast', 1);
-});
+$(document).ready(function () {
 
-$('.button, .skillsButton, .expButton, .eduButton').mouseleave(function() {
-  $(this).fadeTo('slow', 0.65);
-});
+  $('.button, .skillsButton, .expButton, .eduButton').mouseenter(function () {
+    $(this).fadeTo('fast', 1);
+  });
 
-$('.button').click(function() {
-  $('.resume').slideToggle('fast');
-  $(this).hide('fast');
-});
+  $('.button, .skillsButton, .expButton, .eduButton').mouseleave(function () {
+    $(this).fadeTo('slow', 0.65);
+  });
 
-$('.skillsButton').click(function() {
-  $('#skillsList').slideToggle('slow');
-});
+  $('.button').click(function () {
+    $('.resume').slideToggle('fast');
+    $(this).hide('fast');
+  });
 
-$('.expButton').click(function() {
-  $('.experience').slideToggle('slow');
-});
+  $('.skillsButton').click(function () {
+    $('#skillsList').slideToggle('slow');
+  });
 
-$('.eduButton').click(function() {
-  $('.education').slideToggle('slow');
+  $('.expButton').click(function () {
+    $('.experience').slideToggle('slow');
+  });
+
+  $('.eduButton').click(function () {
+    $('.education').slideToggle('slow');
+  });
+
 });
